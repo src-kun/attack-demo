@@ -1,5 +1,6 @@
 # attack-demo
-xss cors bypass hacker
+
+常见攻击与解决方案
 
 ### 安全建设
 
