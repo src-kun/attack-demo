@@ -54,7 +54,7 @@ X-Clockwork-Version: 1.14.2
 Server-Timing: app=556.64587020874; "Application", db=488.63; "Database", timeline-event-total=556.72192573547; "Total execution time."
 Content-Length: 15898
 ```
-分析上面数据包，http://attack.com/攻击者可以通过ajax访问受害者接口，窃取数据。
+分析上面数据包，http://attack.com/ 攻击者可以通过ajax访问受害者接口，窃取数据。
 
 ## 防范
 - **验证传递给xmlhttprequest.open网址。当前的浏览器允许这些URL是跨域的；这种行为可能导致远程攻击者的代码注入。特别注意绝对URL。**
