@@ -70,11 +70,11 @@ Content-Length: 15898
 
 ## 攻击
 
-将test.html和cstf文件放到同一目录，访问test.html完成攻击。
+将cors.html与server.php放到两个服务器，访问cors.html完成攻击。
 
-[test.html 攻击脚本](https://test)
+[cors.html payload](https://test)
 
-[csrf.html payload](https://test)
+[server.php 模拟受害端](https://test)
 
 ## 参考：
 - [Exploiting Misconfigured CORS](http://www.geekboy.ninja/blog/exploiting-misconfigured-cors-cross-origin-resource-sharing/)
